@@ -1,0 +1,58 @@
+.container{
+    padding: 15px;
+    text-align: center;
+    background-color: $background-blue;
+    overflow: hidden;
+
+    & h3{
+        font-size: 2.4rem;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    &__reasons{
+        padding: 0 70px;
+        display: grid;
+        gap: 40px;
+    
+        @media (width > 768px){
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    
+        h4{
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 1.8rem;
+        }
+
+
+        &--boton-box{
+            margin: 50px 0;
+
+            &:hover{
+                transform: scale(1.1); 
+            }
+
+            @media (width > 768px){
+                text-align: center;
+            }
+        }
+
+        &--boton{
+            background-color: $orange;
+            color: white;
+            font-size: 2rem;
+            padding: 10px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+
+            &:hover{
+                background-color: #f7a979;
+            }
+
+        }
+    }
+}

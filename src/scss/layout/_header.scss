@@ -1,0 +1,12 @@
+.header{
+    background-color: $blue;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+
+    &__icon{
+        width: 40%;
+        padding-top: 12px;
+    }
+}

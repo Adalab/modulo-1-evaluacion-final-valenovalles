@@ -1,0 +1,39 @@
+.section__1{
+    text-align: left;
+    padding: 15px;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    padding: 40px 15px;
+
+    @media (width > 768px) {
+        padding: 40px;   
+    }
+
+    @media (width > 1280px) {
+        padding: 91px 275px;   
+    }
+
+&--boton{
+    padding: 10px 20px;
+    border: 2px solid $orange;
+    border-radius: 50px;
+
+    &:hover{
+        background-color: $orange;
+        color: $white;
+    }
+}
+
+&--container-boton{
+    margin-top: 30px;
+}
+
+& a{
+    text-decoration: none;
+    color: $orange;
+}
+
+& span{
+    color: $light-blue;
+}
+}
