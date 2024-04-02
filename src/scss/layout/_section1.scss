@@ -13,6 +13,28 @@
         padding: 91px 275px;   
     }
 
+    & h2{
+        font-family: $titulos;
+        font-size: 2.4rem;
+
+        @media (width > 768px){
+            font-size: $titletablet;
+        }
+
+        @media (width > 1280px){
+            font-size: $titledesk;
+        }
+    }
+
+    & p{
+        font-size: 1.8rem;
+        
+        @media (width > 768px){
+            font-size: 2rem;
+        }
+
+    }
+
 &--boton{
     padding: 10px 20px;
     border: 2px solid $orange;

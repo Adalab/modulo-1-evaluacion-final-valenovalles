@@ -6,8 +6,17 @@
 
     & h3{
         font-size: 2.4rem;
+        font-family: $titulos;
         padding-bottom: 40px;
         padding-top: 30px;
+
+        @media (width > 768px){
+            font-size: $titletablet;
+        }
+
+        @media (width > 1280px){
+            font-size: $titledesk;
+        }
     }
 
     &__reasons{
@@ -22,10 +31,19 @@
         h4{
             font-size: 1.8rem;
             font-weight: bold;
+            font-family: $titulos;
+
+            @media (width > 768px){
+                font-size: 2.4rem;
+            }
         }
 
         p{
             font-size: 1.8rem;
+
+            @media (width > 768px){
+                font-size: 2rem;
+            }
         }
 
 

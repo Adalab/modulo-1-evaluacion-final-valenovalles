@@ -25,10 +25,23 @@
     }
 
     & h1{
-        font-size: $tituloh1;
+        font-size: 4rem;
+        font-family: $titulos;
+
+        @media (width > 768px){
+            font-size: 8rem
+        }
+
+        @media (width > 1280px){
+            font-size: 10rem
+        }
     }
 
     & p{
         font-size: 1.6rem;
+
+        @media (width > 768px0){
+            font-size: 2.4rem
+        }
     }
 }
